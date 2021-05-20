@@ -1,0 +1,38 @@
+{"intents": [
+  {
+    "tag": "saludos",
+    "patterns": ["hola", "hey", "buen dia", "alo", "buenas tardes", "buenas noches"],
+    "responses": ["Hola, soy el recomendador para los docentes", "¿En qué puedo ayudar? Recomiendo metodologías de estudio", "¿Necesitas algo?", "Soy el recomendador para los docentes"]
+  },
+  {
+    "tag": "preguntasGenerales",
+    "patterns": ["que metodo usar?", "que hago con los estudiantes?", "como mejorar la clase?"],
+    "responses": ["Dialogos cortos", "Dibujos", "Reflexion lingüística"]
+  },
+  {
+    "tag": "preguntasEstudio",
+    "patterns": ["como mejorar la atencion de la clase?", "como hacer la clase mas entretenida?", "como tener mas atencion de mis estudiantes?"],
+    "responses": ["Prueba Diagnóstica", "Intervalos de descanso con ocio relacionado al tema", "Conocer al estudiante y entrarle por sus gustos/moda", "Repuesta adicional "]
+  },
+  {
+    "tag": "preguntasEstudiantesDificultosos",
+    "patterns": ["como ayudo a un estudiante que tiene problemas?", "como nivelar a un estudiante?", "como mejorar el desempeño de un estudiante?"],
+    "responses": ["Lecturas adicionales", "Adecuaciones al contenido, tiempo o espacio", "Seguimiento en el proceso educativo", "Dar más atención sin que los demás se sientan excluidos"]
+  },
+  {
+    "tag": "despedidas",
+    "patterns": ["adios", "chao", "muchas gracias"],
+    "responses": ["¿Necesita algo más?", "¡Que tenga un buen día!", "Espero haber sido de ayuda", "¡Adiós!"]
+  },
+  {
+    "tag": "alternativasNegativas",
+    "patterns": ["no, eso ha sido todo", "no, gracias", "no"],
+    "responses": ["¡Adiós!"]
+  },
+  {
+    "tag": "alternativasPositivas",
+    "patterns": ["si, necesito algo mas", "si, por favor", "si"],
+    "responses": ["Estoy para servirle, ¿Cuál es su pregunta?", "Espero a su siguiente pregunta", "Sigamos con las inquietudes"]
+  }
+]
+}

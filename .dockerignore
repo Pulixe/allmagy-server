@@ -1,0 +1,6 @@
+apache2/*
+.vscode/*
+.dockerignore
+docker-compose.yml
+Dockerfile
+
